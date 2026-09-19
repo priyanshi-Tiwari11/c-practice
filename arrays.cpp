@@ -32,6 +32,24 @@ while(start<=end){
 }
 cout<<endl;
 cout<<"method 2 of reversing "<<endl;
+cout<<"to fing the second largest element in array "<<endl;
+int n;int arr2[n];int i ; int ans;
+cout<<"enter the size of array"<<endl;
+cin>>n;
+for(i =0;i<n;i++){
+    cout<<"enter the elements of array"<<endl;
+    cin>>arr[i];
+}
+for(i=0;i<n;i++){
+    if(arr[i]>arr[0]){
+        ans=arr[i];//finding the largest element in array 
+    }
+}
+for(i=0;i<n;i++){
+    if(ans!=arr[i]){
+        ans=max(ans,arr[i]);//using inbuilt function max to find the maximum number
+    }
+}
 return 0;
 }
 
