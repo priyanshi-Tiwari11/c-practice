@@ -1,2 +1,2 @@
-# c-practice
+# c++-practice
 here's c++ notes 
