@@ -19,7 +19,7 @@ for (int i=5;i>=0;i--){
     cout<<arr[i]<<" ";
 }
 cout<<endl;
-cout<<"method 1"<<endl;
+cout<<"method 1 of reversing "<<endl;
 //second method of reversing an array
 int start=0;int end=5;
 while(start<=end){
@@ -31,7 +31,7 @@ while(start<=end){
     cout<<arr[i]<<" ";
 }
 cout<<endl;
-cout<<"method 2"<<endl;
+cout<<"method 2 of reversing "<<endl;
 return 0;
 }
 
