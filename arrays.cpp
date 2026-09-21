@@ -32,7 +32,7 @@ while(start<=end){
 }
 cout<<endl;
 cout<<"method 2 of reversing "<<endl;
-cout<<"to fing the second largest element in array "<<endl;
+cout<<"to find the second largest element in array "<<endl;
 int n;int arr2[n];int i ; int ans;
 cout<<"enter the size of array"<<endl;
 cin>>n;
