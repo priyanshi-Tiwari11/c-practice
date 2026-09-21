@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    cout<<"to find the second largest element in array "<<endl;
+cout<<"to find the second largest element in array "<<endl;
 int n;int arr2[n];int i ; int ans;
 cout<<"enter the size of array"<<endl;
 cin>>n;
@@ -19,6 +19,13 @@ for(i=0;i<n;i++){
         ans=max(ans,arr2[i]);//using inbuilt function max to find the maximum number
     }
 }
+//to find the missing number in array if the elements are unique and not repeated
+int sum=0;
+for(i=0;i<n-1;i++){
+    sum+=arr2[i];
+}
+int total=n*(n+1)/2;
+cout<<"the missing number is "<<total-sum<<endl;
 return 0;
 }
 
